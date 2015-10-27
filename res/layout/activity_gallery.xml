@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageSwitcher
+        android:id="@+id/switcheringallery"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" 
+        android:layout_gravity="center"/>
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:spacing="3pt"
+        android:unselectedAlpha="0.6" />
+
+</LinearLayout>

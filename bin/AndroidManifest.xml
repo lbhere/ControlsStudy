@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comlblearn.day3.controlsstudy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TextView"
+            android:label="@string/title_activity_text_edit_view" >
+        </activity>
+        <activity
+            android:name=".ButtonActivity"
+            android:label="@string/title_activity_button" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day4.controlsstudy.CheckRadioActivity"
+            android:label="@string/title_activity_check_radio" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day4.controlsstudy.ToggleButtonActivity"
+            android:label="@string/title_activity_toggle_button" >
+        </activity>
+        <activity
+            android:name=".AnalogClockActivity"
+            android:label="@string/title_activity_analog_clock" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day4.controlsstudy.DigitalClockActivity"
+            android:label="@string/title_activity_digital_clock" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day4.controlsstudy.ImageViewActivity"
+            android:label="@string/title_activity_image_view" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day4.controlsstudy.Spinner1Activity"
+            android:label="@string/title_activity_spinner" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day4.controlsstudy.Spinner2Activity"
+            android:label="@string/title_activity_spinner2" >
+        </activity>
+        <activity
+            android:name=".DateTimePickerActivity"
+            android:label="@string/title_activity_date_time_picker" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day4.controlsstudy.ProgressActivity"
+            android:label="@string/title_activity_progress" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day5.controlsstudy.SeekBarActivity"
+            android:label="@string/title_activity_seek_bar" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day5.controlsstudy.RatingBarActivity"
+            android:label="@string/title_activity_rating_bar" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day5.controlsstudy.FragmentTestActivity"
+            android:label="@string/title_activity_tab_host" >
+        </activity>
+        <activity
+            android:name="com.lblearn.fragmentdemo.FragmentMainActivity"
+            android:label="@string/title_activity_fragment" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day6.controlsstudy.ListViewActivity"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day6.controlsstudy.SimpleAdapterTest"
+            android:label="@string/title_activity_simple_adapter_test" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day6.controlsstudy.ExpandedListView"
+            android:label="@string/title_activity_expanded_list_view" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day6.controlsstudy.GridViewImageSwitcher"
+            android:label="@string/title_activity_grid_view_image_switcher" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day6.controlsstudy.GalleryActivity"
+            android:label="@string/title_activity_gallary" >
+        </activity>
+        <activity
+            android:name="com.lblearn.day6.controlsstudy.AlertDialogActivity"
+            android:label="@string/title_activity_alert_dialog" >
+        </activity>
+    </application>
+
+</manifest>

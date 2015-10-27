@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ControlsStudy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="textstr">text/editview</string>
+    <string name="buttonstr">button</string>
+    <string name="radiostr">check/radiobtn</string>
+    <string name="title_activity_text_edit_view">TextEditView</string>
+    <string name="title_activity_button">ButtonActivity</string>
+    <string name="title_activity_check_radio">CheckRadioActivity</string>
+    <string name="title_activity_toggle_button">ToggleButtonActivity</string>
+    <string name="title_activity_analog_clock">AnalogClockActivity</string>
+    <string name="title_activity_digital_clock">DigitalClockActivity</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="title_activity_spinner2">Spinner2Activity</string>
+    <string name="title_activity_date_time_picker">DateTimePickerActivity</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_seek_bar">SeekBarActivity</string>
+    <string name="title_activity_rating_bar">RatingBarActivity</string>
+    <string name="title_activity_tab_host">TabHostActivity</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_simple_adapter_test">SimpleAdapterTest</string>
+    <string name="title_activity_expanded_list_view">ExpandedListView</string>
+    <string name="title_activity_grid_view_image_switcher">GridViewImageSwitcher</string>
+    <string name="title_activity_gallary">GallaryActivity</string>
+    <string name="title_activity_alert_dialog">AlertDialogActivity</string>
+
+</resources>
